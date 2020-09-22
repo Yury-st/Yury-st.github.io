@@ -67,23 +67,39 @@ html {
   color: #ffffff;
 }
 
-.header .container .article_head_1 {
-  font-family: Roboto;
-  font-size: 41px;
-  font-weight: 900;
-  text-transform: uppercase;
-  color: #f9bf3b;
-  margin-top: 53px;
+.header .container .article .swap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.header .container .article h1 {
+.header .container .article .swap .line {
+  content: ' ';
+  width: 196px;
+  height: 2px;
+  background-color: #f9bf3b;
+}
+
+.header .container .article .swap h1 {
+  display: inline-block;
   font-family: Roboto;
   font-size: 80px;
   line-height: 57px;
   font-weight: 900;
   text-transform: uppercase;
   color: #ffffff;
-  margin-top: 21px;
+  margin: 21px 50px 0;
+}
+
+.header .container .article_head_1 {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 41px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #f9bf3b;
+  margin-top: 53px;
 }
 
 .header .container .article_head_2 {
